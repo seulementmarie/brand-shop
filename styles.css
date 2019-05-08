@@ -153,7 +153,6 @@ a {
   font-family: Lato;
   font-size: 14px;
   font-weight: 700;
-  line-height: 26px;
   text-transform: uppercase;
 }
 
@@ -249,7 +248,6 @@ a {
   font-size: 18px;
   font-weight: 600;
   text-transform: uppercase;
-  letter-spacing: 0.45px;
 }
 
 .hot-deals-text-caption {
@@ -258,4 +256,53 @@ a {
   letter-spacing: 0.75px;
   text-transform: uppercase;
   font-weight: 600;
+}
+
+.featured-items-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 100px;
+}
+
+.featured-items-caption {
+  color: #222222;
+  font-size: 36px;
+  font-weight: 700;
+}
+
+.plain-text {
+  color: #9f9f9f;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.cards-list {
+  margin-top: 60px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding-bottom: 60px;
+}
+
+.card__descr {
+  color: #222222;
+  font-size: 13px;
+  font-weight: 600;
+  text-transform: uppercase;
+  margin: 20px auto 0 14px;
+}
+
+.card__price {
+  color: #f16d7f;
+  font-size: 16px;
+  font-weight: 900;
+  text-transform: uppercase;
+  margin: 15px auto 0 14px;
 }
