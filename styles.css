@@ -320,3 +320,82 @@ a {
   height: 14px;
   padding-left: 3px;
 }
+
+.features {
+  width: 1140px;
+  margin-top: 113px;
+  display: flex;
+  flex-direction: row;
+}
+
+.special-offer {
+  height: 529px;
+  width: 767px;
+}
+
+.special-offer-content {
+  width: 100%;
+  height: 100%;
+  background-image: url(img/special-offer.jpg);
+
+  color: #ffffff;
+  font-family: Lato;
+  font-size: 54px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.special-offer-text-upper {
+  font-size: 54px;
+}
+
+.special-offer-text-lower {
+  font-size: 32px;
+}
+
+.special-offer-text {
+  margin-top: 146px;
+  margin-left: 40px;
+  padding: 0;
+  border: none;
+}
+
+.features-list {
+  background-color: #222224;
+}
+
+.feature-list__container-vert {
+  width: 373px;
+  height: 529px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding-left: 36px;
+  padding-right: 43px;
+}
+
+.feature-box {
+  display: flex;
+}
+
+.feature-icon {
+  width: 45px;
+  height: 32px;
+}
+
+.feature {
+  color: #fbfbfb;
+  font-family: Lato;
+  margin-left: 30px;
+}
+
+.feature-caption {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.feature-descr {
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 24px;
+}
