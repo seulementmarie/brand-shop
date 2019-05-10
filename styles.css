@@ -403,6 +403,7 @@ a {
 .subscribe {
   height: 438px;
   background-image: url(img/subscribe-background.jpg);
+  background-position: -10px 0;
   margin-top: 97px;
 }
 
