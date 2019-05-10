@@ -399,3 +399,82 @@ a {
   font-weight: 300;
   line-height: 24px;
 }
+
+.subscribe {
+  height: 438px;
+  background-image: url(img/subscribe-background.jpg);
+  margin-top: 97px;
+}
+
+.container-wrapper {
+  padding-top: 111px;
+}
+
+.subscribe-content {
+  width: 1048px;
+  height: 171px;
+  border: 1px solid red;
+}
+
+.avatar {
+  width: 83px;
+  height: 83px;
+  border-radius: 50%;
+}
+
+.comment__text {
+  color: #222224;
+  font-family: Lato;
+  font-size: 16px;
+  font-style: italic;
+  text-align: justify;
+}
+
+.comment__author__name {
+  color: #f16d7f;
+  font-family: Lato;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.comment__author__location {
+  color: #222224;
+  font-family: "Lato Light";
+  font-size: 12px;
+  font-weight: 300;
+}
+
+.feedback__content {
+  width: 500px;
+  display: flex;
+}
+
+.comment {
+  margin-left: 30px;
+  margin-top: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.comment__author {
+  margin-top: 20px;
+}
+
+.slider {
+  width: 153px;
+  display: flex;
+  justify-content: space-between;
+  margin-left: 113px;
+  margin-top: 41px;
+}
+
+.slider__element {
+  width: 38px;
+  height: 4px;
+  background-color: #d6d6d6;
+}
+
+.slider__element::selection {
+  background-color: #f16d7f;
+}
