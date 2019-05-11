@@ -414,7 +414,8 @@ a {
 .subscribe-content {
   width: 1048px;
   height: 171px;
-  border: 1px solid red;
+  display: flex;
+  justify-content: space-between;
 }
 
 .avatar {
@@ -478,4 +479,59 @@ a {
 
 .slider__element::selection {
   background-color: #f16d7f;
+}
+
+.caption {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.caption-subscribe {
+  color: #222224;
+  font-family: Lato;
+  font-weight: 400;
+  font-size: 24px;
+  text-transform: uppercase;
+}
+
+.caption-reason {
+  width: 277px;
+  height: 41px;
+  color: #222224;
+  font-family: Lato;
+  font-size: 14px;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+/* .subscription-area {
+  margin-right: 238px;
+} */
+
+.subscription-email {
+  width: 386px;
+  height: 46px;
+  display: flex;
+}
+
+.email {
+  border-radius: 23px 0 0 23px;
+  background-color: #e1e1e1;
+  width: 282px;
+  height: 46px;
+  border: none;
+  padding-left: 28px;
+}
+
+.submit-email {
+  width: 104px;
+  height: 46px;
+  border-radius: 0 23px 23px 0;
+  background-color: #f16d7f;
+  border: none;
+  color: #ffffff;
+  font-family: Lato;
+  font-size: 14px;
+  font-weight: 400;
 }
