@@ -537,7 +537,6 @@ a {
 }
 
 footer {
-  width: 1617px;
   height: 428px;
   margin-top: 109px;
 }
@@ -549,7 +548,6 @@ footer {
 }
 
 .copyright {
-  width: 1617px;
   height: 79px;
   background-color: #e6e6e6;
 }
@@ -594,4 +592,28 @@ footer {
   display: flex;
   justify-content: space-around;
   width: 608px;
+}
+
+.copyright-text {
+  color: #7a7a7a;
+  font-family: Lato;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.social-network-icon {
+  width: 32px;
+  height: 32px;
+}
+
+.social-network-link {
+  width: 32px;
+  height: 32px;
+}
+
+.copyright-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 79px;
 }
