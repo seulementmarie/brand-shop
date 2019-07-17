@@ -404,7 +404,8 @@ a {
 .subscribe {
   height: 438px;
   background-image: url(img/subscribe-background.jpg);
-  background-position: -10px 0;
+  background-position: center;
+  background-size: cover;
   margin-top: 97px;
 }
 
@@ -538,14 +539,15 @@ a {
 }
 
 footer {
-  height: 428px;
-  margin-top: 109px;
+  /* height: 428px; */
+  margin-top: 97px;
 }
 
 .footer-info {
   height: 352px;
   display: flex;
   justify-content: space-between;
+  margin-top: 109px;
 }
 
 .copyright {
